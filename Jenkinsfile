@@ -15,7 +15,7 @@ pipeline {
             }
         }
 
-        stage('Checkout') { //change the below path to your repositoy url v
+        stage('Checkout') { //change the below path to your repositoy url nawaf repo
             steps {
                 git branch: 'master', url: 'https://github.com/nawaf83/hello-world-java-1.git'
             }
